@@ -1,4 +1,3 @@
-/* eslint-disable indent */
 // provider.js
 
 import axios from "axios";
@@ -20,8 +19,8 @@ const getAll = async (resource, signal, isAuthorized = false) => {
 
   try {
     const response = await axios.get(`${BASE_URL}`, {
-      signal,
-      headers,
+      signal: signal,
+      headers: headers,
     });
     return handleResponse(response);
   } catch (error) {
@@ -47,16 +46,16 @@ const getSingle = async (
     let response;
     if (additionalParam === "") {
       response = await axios.get(`${BASE_URL}/${resource}/${id}`, {
-        signal,
-        headers,
+        signal: signal,
+        headers: headers,
       });
     } else {
       // console.log(`${BASE_URL}/${resource}/${additionalParam}/${id}`);
       response = await axios.get(
         `${BASE_URL}/${resource}/${additionalParam}/${id}`,
         {
-          signal,
-          headers,
+          signal: signal,
+          headers: headers,
         }
       );
     }
@@ -83,15 +82,15 @@ const getByParams = async (
     let response;
     if (additionalParam === "") {
       response = await axios.get(`${BASE_URL}/${resource}`, {
-        signal,
-        headers,
-        params,
+        signal: signal,
+        headers: headers,
+        params: params,
       });
     } else {
       response = await axios.get(`${BASE_URL}/${resource}/${additionalParam}`, {
-        signal,
-        headers,
-        params,
+        signal: signal,
+        headers: headers,
+        params: params,
       });
     }
     return handleResponse(response);
@@ -116,7 +115,7 @@ const post = async (
     let response;
     if (additionalParam === "") {
       response = await axios.post(`${BASE_URL}/${resource}`, model, {
-        headers,
+        headers: headers,
       });
     } else {
       //   console.log(`${BASE_URL}/${additionalParam}`);
@@ -124,7 +123,7 @@ const post = async (
         `${BASE_URL}/${resource}/${additionalParam}`,
         model,
         {
-          headers,
+          headers: headers,
         }
       );
     }
@@ -156,14 +155,14 @@ const postFormData = async (
     let response;
     if (additionalParam === "") {
       response = await axios.post(`${BASE_URL}/${resource}`, model, {
-        headers,
+        headers: headers,
       });
     } else {
       response = await axios.post(
         `${BASE_URL}/${resource}/${additionalParam}`,
         model,
         {
-          headers,
+          headers: headers,
         }
       );
     }
@@ -184,14 +183,14 @@ const put = async (resource, model, additionalParams, isAuthorized = false) => {
     let response;
     if (additionalParams === "") {
       response = await axios.put(`${BASE_URL}/${resource}`, model, {
-        headers,
+        headers: headers,
       });
     } else {
       response = await axios.put(
         `${BASE_URL}/${resource}/${additionalParams}`,
         model,
         {
-          headers,
+          headers: headers,
         }
       );
     }
@@ -204,10 +203,10 @@ const put = async (resource, model, additionalParams, isAuthorized = false) => {
 
 /** @param {string} resource */
 /** @param {object} model */
-const putById = async (resource, id, model, signal) => {
+const putById = async (resource, id, model, signal, isAuthorized = false) => {
   try {
     const response = await axios.put(`${BASE_URL}/${resource}/${id}`, model, {
-      signal,
+      signal: signal,
     });
     return handleResponse(response);
   } catch (error) {
@@ -237,14 +236,14 @@ const putFormData = async (
     let response;
     if (additionalParam === "") {
       response = await axios.put(`${BASE_URL}/${resource}`, model, {
-        headers,
+        headers: headers,
       });
     } else {
       response = await axios.put(
         `${BASE_URL}/${resource}/${additionalParam}`,
         model,
         {
-          headers,
+          headers: headers,
         }
       );
     }
@@ -257,11 +256,11 @@ const putFormData = async (
 
 /** @param {string} resource */
 /** @param {object} model */
-const patch = async (resource, model, signal) => {
+const patch = async (resource, model, signal, isAuthorized = false) => {
   const token = localStorage.getItem("Socialgram-Token");
   try {
     const response = await axios.patch(`${BASE_URL}/${resource}`, model, {
-      signal,
+      signal: signal,
       headers: {
         "auth-token": token,
       },
@@ -284,10 +283,10 @@ const patchByParams = async (
   const headers = isAuthorized ? { "auth-token": token } : {};
 
   try {
-    const request = axios.create({
+    let request = axios.create({
       method: "PATCH",
       baseURL: `${BASE_URL}/${resource}/${additionalParams}?${queryParams}`,
-      headers,
+      headers: headers,
     });
     const response = await request.patch(null);
     return handleResponse(response);
@@ -307,13 +306,13 @@ const remove = async (resource, id, additionalParams, isAuthorized = false) => {
     let response;
     if (additionalParams === "") {
       response = await axios.delete(`${BASE_URL}/${resource}/${id}`, {
-        headers,
+        headers: headers,
       });
     } else {
       response = await axios.delete(
         `${BASE_URL}/${resource}/${additionalParams}/${id}`,
         {
-          headers,
+          headers: headers,
         }
       );
     }
@@ -323,7 +322,6 @@ const remove = async (resource, id, additionalParams, isAuthorized = false) => {
   }
 };
 
-// eslint-disable-next-line import/prefer-default-export
 export const apiProvider = {
   getAll,
   getSingle,
