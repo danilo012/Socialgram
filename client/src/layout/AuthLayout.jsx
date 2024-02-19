@@ -39,12 +39,12 @@ thank you.
       </Typography>
       <Box mt={2} sx={{ display: "flex", verticalAlign: "middle" }}>
         <Typography component="p" variant="subtitle1" mr={1}>
-          Devloped by
+          Developed by
         </Typography>
         <Typography
           component={Link}
           variant="subtitle1"
-          href="https://shelcia-dev.me/"
+          href="https://echozoneph.online"
           target="_blank"
           mr={1}
         >
@@ -52,15 +52,15 @@ thank you.
         </Typography>
         -
         <Typography component="p" variant="subtitle1" mr={1} ml={1}>
-          Code on
+          apply us a renter
         </Typography>
         <Typography
           component={Link}
           variant="subtitle1"
-          href="https://github.com/shelcia/Socialgram"
+          href="https://echozoneph.online"
           target="_blank"
         >
-          Github
+          Rental
         </Typography>
       </Box>
     </Box>
