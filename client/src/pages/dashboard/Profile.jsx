@@ -115,7 +115,7 @@ const MyProfile = () => {
       <Box className="text-center">
         {!isEdit ? (
           <img
-            src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
+            src={`https://api.dicebear.com/7.x/avataaars/svg?seed=Rascal`}
             alt="avatar"
           />
         ) : (
