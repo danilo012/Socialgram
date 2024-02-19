@@ -32,16 +32,16 @@ const Adds = () => {
         </Typography>
         <List>
           <ListItem sx={{ display: "block" }}>
-            Take a look at the Existing
+            PaysGram is a combination of the 3 MOST INNOVATIVE INTERNET BUSINESS in the world today SOCIAL MEDIA PLATFORM, E-COMMERCE SYSTEM and AFFILIATE MARKETING PROGRAM.
             <Link
-              href="https://github.com/shelcia/Socialgram/issues"
+              href="https://paysgram.vercel.app/"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2"
             >
-              Issues
+              SOCIAL MEDIA 
             </Link>
-            or create your own Issues!
+            E-COMMERCE!
           </ListItem>
           <ListItem>
             Wait for the Issue to be assigned to you after which you can start
