@@ -71,7 +71,7 @@ const Post = ({
         to={`/homepage/user/${post.ownerId}`}
       >
         <img
-          src={`https://api.dicebear.com/7.x/<styleName>/svg`}
+          src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
           alt="avatar"
           height={40}
           width={40}
@@ -227,7 +227,7 @@ const IconButtons = ({
           data={{
             text: "Check out my post on socialgram !",
             // eslint-disable-next-line no-underscore-dangle
-            url: `https://social--gram.vercel.app/post/${post._id}`,
+            url: `https://paysgram.vercel.app/post/${post._id}`,
             title: "Share",
           }}
           onClick={() => {
@@ -302,7 +302,7 @@ const PostModal = ({
 
         <Stack spacing={2} direction="row">
           <img
-            src={`https://avatars.dicebear.com/api/avataaars/:seed.svg?${imageUrl}&r=10&size=50`}
+            src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
             alt="avatar"
             height={40}
             width={40}
@@ -357,7 +357,7 @@ const CommentBox = ({ comment }) => {
       <Stack spacing={0}>
         <Stack spacing={1} direction="row">
           <img
-            src={`https://avatars.dicebear.com/api/avataaars/:seed.svg?${imageUrl}&r=15&size=30`}
+            src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
             alt="avatar"
             height={25}
             width={25}
