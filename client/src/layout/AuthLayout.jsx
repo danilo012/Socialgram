@@ -25,13 +25,17 @@ const AuthLayout = ({ children }) => (
       }}
     >
       <Typography component="h1" variant="h1">
-        Socialgram
+        PaysGram
       </Typography>
       <Typography component="p" variant="subtitle1" mt={2}>
-        Social Gram is a social media website that allows users to create and
+        PaysGram is a social media website that allows users to create and
         share content. Users will be able to create posts, and share them with
         others. The platform also allows for users to react and engage with
-        other users content, such as by liking, commenting, or sharing.
+        other users content, such as by liking, commenting, or sharing. 
+        PaysGram has been continuously improving the standards of our social media website development for more years! We care to keep improving and growing for you! , 
+        lastly we're giving a chance to our rented users to earn more efficient and earn passive income while creating and sharing content!
+
+thank you.
       </Typography>
       <Box mt={2} sx={{ display: "flex", verticalAlign: "middle" }}>
         <Typography component="p" variant="subtitle1" mr={1}>
@@ -44,7 +48,7 @@ const AuthLayout = ({ children }) => (
           target="_blank"
           mr={1}
         >
-          Shelcia
+          Echozoneph
         </Typography>
         -
         <Typography component="p" variant="subtitle1" mr={1} ml={1}>
