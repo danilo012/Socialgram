@@ -15,7 +15,7 @@ const Adds = () => {
           About Project
         </Typography>
         <img
-          src="http://seed4na.eu/wp-content/uploads/2020/07/vision-1024x683.jpgzers=1&theme=Dark"
+          src="https://seed4na.eu/wp-content/uploads/2020/07/vision-1024x683.jpgzers=1&theme=Dark"
           alt="Socialgram"
           className="w-100 mb-4"
         />
