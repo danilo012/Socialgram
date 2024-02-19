@@ -45,22 +45,20 @@ const Adds = () => {
 SOCIAL MEDIA is a new necessities for almost 3 Billion people in the world so no questions ask it is a REAL DEAL.
           </ListItem>
           <ListItem>
-            Wait for the Issue to be assigned to you after which you can start
-            working on it.
+            E-Commerce System is now a new pace of the business in the world today ALIBABA, AMAZON, and LAZADA they already prove to us that the evolution of business is existing.
           </ListItem>
           <ListItem>
-            Fork the Repo and create a Branch for any Issue that you are working
-            upon.
+            JACK MA is the richest man in China, founder of ALIBABA is one classic example that e-commerce industry had a tremendous growth and E-Commerce Industry in the Philippines and even in ASEAN REGION is potentially growing up to 15% annually which shows the huge market place in these REGION.
           </ListItem>
           <ListItem sx={{ display: "block" }}>
-            Read the
+            
             <Link
-              href="https://github.com/shelcia/CRM/blob/master/CODE_OF_CONDUCT.md"
+              href="#"
               target="_blank"
               rel="noopener noreferrer"
               className="px-2"
             >
-              Code of Conduct
+              E-COMMERCE
             </Link>
           </ListItem>
           <ListItem>
