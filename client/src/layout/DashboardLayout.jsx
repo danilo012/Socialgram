@@ -29,7 +29,7 @@ const DashboardLayout = ({ children }, props) => {
   const drawer = (
     <Box onClick={handleDrawerToggle} sx={{ textAlign: "center" }}>
       <Typography variant="h6" sx={{ my: 2 }}>
-        SocialGram
+        PaysGram
       </Typography>
       <Divider />
       <SideNav />
@@ -54,7 +54,7 @@ const DashboardLayout = ({ children }, props) => {
       >
         <Toolbar id="back-to-top-anchor">
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            SocialGram
+            PaysGram
           </Typography>
           <IconButton
             color="inherit"
