@@ -71,7 +71,7 @@ const Post = ({
         to={`/homepage/user/${post.ownerId}`}
       >
         <img
-          src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
+          src={`https://api.dicebear.com/7.x/avataaars/svg?seed=Rascal`}
           alt="avatar"
           height={40}
           width={40}
@@ -302,7 +302,7 @@ const PostModal = ({
 
         <Stack spacing={2} direction="row">
           <img
-            src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
+            src={`https://api.dicebear.com/7.x/avataaars/svg?seed=Rascal`}
             alt="avatar"
             height={40}
             width={40}
@@ -357,7 +357,7 @@ const CommentBox = ({ comment }) => {
       <Stack spacing={0}>
         <Stack spacing={1} direction="row">
           <img
-            src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
+            src={`https://api.dicebear.com/7.x/avataaars/svg?seed=Rascal`}
             alt="avatar"
             height={25}
             width={25}
