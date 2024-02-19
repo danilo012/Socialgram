@@ -52,7 +52,7 @@ thank you.
         </Typography>
         -
         <Typography component="p" variant="subtitle1" mr={1} ml={1}>
-          apply us a renter
+          Become a renter
         </Typography>
         <Typography
           component={Link}
