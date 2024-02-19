@@ -15,7 +15,7 @@ const ProfileDisplay = ({ profile, imageUrl }) => {
     <Box className="row">
       <Box className="col-md-4">
         <img
-          src={`https://api.dicebear.com/7.x/<styleName>/svg`}
+          src={`https://api.dicebear.com/7.x/lorelei/png/${encodeURIComponent(options)`}
           alt="avatar"
         />
       </Box>
