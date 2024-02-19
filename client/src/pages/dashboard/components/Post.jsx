@@ -71,7 +71,7 @@ const Post = ({
         to={`/homepage/user/${post.ownerId}`}
       >
         <img
-          src={`https://avatars.dicebear.com/api/avataaars/:seed.svg?${imageUrl}&r=10&size=50`}
+          src={`https://api.dicebear.com/7.x/<styleName>/svg`}
           alt="avatar"
           height={40}
           width={40}
