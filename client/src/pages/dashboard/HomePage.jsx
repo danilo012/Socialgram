@@ -45,7 +45,7 @@ const Feed = () => {
   }, [dispatch]);
 
   const addingNotif = () => {
-    toast("Adding!", {
+    toast("Yey thank you for posting!", {
       icon: "👏",
     });
   };
