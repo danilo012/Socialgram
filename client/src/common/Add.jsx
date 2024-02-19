@@ -58,15 +58,18 @@ SOCIAL MEDIA is a new necessities for almost 3 Billion people in the world so no
               rel="noopener noreferrer"
               className="px-2"
             >
-              E-COMMERCE
+           E-COMMERCE
             </Link>
           </ListItem>
           <ListItem>
-            Create a Pull Request which will be promptly reviewed and
-            suggestions would be added to improve it.
+            With the Affiliate Marketing Program we can assure the organic traffic and real people collaboration to grow in this platform in the short period of time we can attain TREMENDOUS RESULT by providing a SOLID PAY PLAN and UNIQUE INCENTIVES.
+The Solid foundation of this PLATFORM with collaboration of echozone social panel harness over the last 2 years through great challenges, failures and standing up over and over again. For us this is the fruit of PASSION and solid DETERMINATION,
+"There is only one purpose to VALUE the LIFE of every users nothing more nothing less."
           </ListItem>
           <ListItem>
-            Add Screenshots to help us know what this Script is all about.
+            Because we're already found the MEANING of my LIFE that is why my life has to mean and value other peoples lives.
+We believe that this PLATFORM is a perfect connection to hit the right spot in life. SUCCESS with MEANING and PURPOSE. . Please spread the good news of life. .
+PaysGram “Connect to your Dreams!”
           </ListItem>
         </List>
       </Box>
