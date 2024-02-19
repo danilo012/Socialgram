@@ -39,9 +39,10 @@ const Adds = () => {
               rel="noopener noreferrer"
               className="px-2"
             >
-              SOCIAL MEDIA 
+              SOCIAL MEDIA.
             </Link>
-            E-COMMERCE!
+            Using our own Social Media Platform, we provide each users the facility to communicate, connect and create public relation to build a huge market and traffic. Social media is a very powerful tool in building rapport to your target audience by providing them a social interaction and connectivity!
+SOCIAL MEDIA is a new necessities for almost 3 Billion people in the world so no questions ask it is a REAL DEAL.
           </ListItem>
           <ListItem>
             Wait for the Issue to be assigned to you after which you can start
