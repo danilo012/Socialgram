@@ -15,8 +15,8 @@ const Adds = () => {
           About Project
         </Typography>
         <img
-          src="https://seed4na.eu/wp-content/uploads/2020/07/vision-1024x683.jpgzers=1&theme=Dark"
-          alt="Socialgram"
+          src="https://projectwatch.ph/wp-content/uploads/2021/05/watch-logo.png"
+          alt="PaysGram"
           className="w-100 mb-4"
         />
         <Link
