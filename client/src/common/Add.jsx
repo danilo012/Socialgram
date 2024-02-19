@@ -15,17 +15,17 @@ const Adds = () => {
           About Project
         </Typography>
         <img
-          src="https://socialify.git.ci/shelcia/Socialgram/image?font=Rokkitt&forks=1&issues=1&language=1&owner=1&pattern=Floating%20Cogs&pulls=1&stargazers=1&theme=Dark"
+          src="http://seed4na.eu/wp-content/uploads/2020/07/vision-1024x683.jpgzers=1&theme=Dark"
           alt="Socialgram"
           className="w-100 mb-4"
         />
         <Link
-          href="https://github.com/shelcia/Socialgram"
+          href="https://echozoneph.online"
           title="Repository"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Repository Link
+          Echozone 
         </Link>
         <Typography component="h3" variant="h6" sx={{ mt: 2 }}>
           How to Contribute ?
